@@ -1,0 +1,33 @@
+{
+  "name": "unit-testing-with-nodejs",
+  "version": "1.0.0",
+  "description": "unit test project using mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "coverage": "nyc npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dziana-babrova/Unit-testing-with-NodeJS.git"
+  },
+  "keywords": [
+    "mocha",
+    "unit",
+    "testing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dziana-babrova/Unit-testing-with-NodeJS/issues"
+  },
+  "homepage": "https://github.com/dziana-babrova/Unit-testing-with-NodeJS#readme",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "nyc": "^15.1.0"
+  },
+  "nyc": {
+    "reporter": "html"
+  }
+}
