@@ -1,8 +1,3 @@
-/**
- *
- * class containing methods for adding and multiplying numbers
- * @class Calculator
- */
 class Calculator {
   /**
    * Creates an instance of Calculator.
